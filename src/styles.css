@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: ;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right, cyan, green);
+  height: 100vh;
+}
+
+.App > input {
+  display: flex;
+  flex-direction: column;
+}
+
+.formz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formz > label {
+  font-size: 20px;
+}
+
+.formz > input {
+  width: 30%;
+  padding: 5px;
+}
